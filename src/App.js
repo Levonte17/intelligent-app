@@ -8,7 +8,8 @@ const [response, setResponse] = useState('');
 
 const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:4007', {
+    //fetch('http://localhost:4007', {
+      fetch('https://intelligence-app.adaptable.app/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
